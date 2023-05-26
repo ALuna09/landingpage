@@ -1,0 +1,78 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: #247881;
+}
+
+h1 {
+    color: #C4B0FF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: #C4B0FF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background-color: #30AADD;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+.portrait {
+    border-radius: 100%;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.parallax {
+    background-image: url("./ezgif.com-crop.gif");
+    height: 100%;
+
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+}
+
+.footer-link {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.footer-text {
+    font-family: sans-serif, serif;
+    font-size: large;
+    font-style: italic;
+}
+
+.resume, .about {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: #D8E3E7;
+}
+
+hr {
+    border-style: dotted none none;
+    size: 15px;
+    border-top-width: 10px;
+    border-top-color: #30AADD;
+    width: 5%;
+}
